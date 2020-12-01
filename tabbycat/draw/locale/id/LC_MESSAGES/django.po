@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 17:59-0400\n"
-"PO-Revision-Date: 2020-11-30 23:56\n"
+"PO-Revision-Date: 2020-12-01 00:07\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -925,17 +925,17 @@ msgstr "Presedensi urutan tim kosong. Ini berarti bahwa tim tidak di-ranking ber
 #: draw/templates/draw_status_draft.html:41
 #, python-format
 msgid "Brackets are formed using the first metric in the team standings precedence, which is currently set to <strong>%(metric)s</strong>, rather than team points, which is the more usual convention. If this isn't what you wanted, you can <a href=\"%(standings_config_url)s\" class=\"alert-link\">change the team standings precedence in the standings configuration page</a>."
-msgstr ""
+msgstr "Bracket dibangun menggunakan metrik pertama pada presedensi, yang saat ini diset ke <strong>%(metric)s</strong>, alih-alih poin tim, yang merupakan konvensi umum. Jika ini bukan yang Anda inginkan, Anda dapat <a href=\"%(standings_config_url)s\" class=\"alert-link\">mengubah presedensi urutan tim pada halaman konfigurasi urutan</a>."
 
 #: draw/templates/draw_status_draft.html:53
 #, python-format
 msgid "The draw type for this round is set to <strong>manual</strong>, so Tabbycat has just made a blank draw. Head on over to <a href=\"%(edit_matchups_url)s\" class=\"alert-link\">Edit Sides/Matchups</a> to fill it in."
-msgstr ""
+msgstr "Tipe pengundian untuk ronde ini diset ke <strong>manual</strong>, sehingga Tabbycat baru saja membuat pengundian kosong. Pindahlah ke <a href=\"%(edit_matchups_url)s\" class=\"alert-link\">Sunting Sisi/Matchup</a> untuk mengisinya."
 
 #: draw/templates/draw_status_draft.html:64
 #, python-format
 msgid "The adjudicator score range is 0, and so adjudicator scores will be ignored when allocating. You can <a href=\"%(feedback_config_url)s\" class=\"alert-link\">change the adjudicator score range in the feedback configuration page</a>."
-msgstr ""
+msgstr "Rentang nilai adjudicator adalah 0, maka nilai adjudicator akan diabaikan saat mengalokasikan. Anda dapat <a href=\"%(feedback_config_url)s\" class=\"alert-link\">mengubah rentang nilai adjudicator pada halaman konfigurasi umpanbalik</a>."
 
 #: draw/templates/draw_status_draft.html:74
 msgid "Tabbycat assigns sides in elimination rounds randomly. However, because in elimination rounds, many tournaments draw lots for sides in front of an audience, the sides are marked as \"unconfirmed\", so that it doesn't look like sides have been pre-assigned. After you confirm the draw, you'll need to confirm sides on the \"Edit Sides/Matchups\" page, even if you wish to accept Tabbycat's random assignment."
