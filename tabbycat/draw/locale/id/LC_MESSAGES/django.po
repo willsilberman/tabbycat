@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-18 17:59-0400\n"
-"PO-Revision-Date: 2020-12-02 23:57\n"
+"PO-Revision-Date: 2020-12-04 03:56\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -948,24 +948,24 @@ msgstr "Sel yang diwarnai berhubungan dengan perubahan pada keseimbangan posisi,
 #: draw/templates/draw_status_none.html:6
 #, python-format
 msgid "A draw for %(round)s hasn't yet been generated. To generate one, go to the <a href=\"%(availability_url)s\" class=\"alert-link\">Availability section</a>."
-msgstr ""
+msgstr "Pengundian untuk %(round)s belum dibangkitkan. Untuk membangkitkan, pergi ke <a href=\"%(availability_url)s\" class=\"alert-link\">seksi Ketersediaan</a>."
 
 #: draw/templates/position_balance.html:6
 msgid "It looks like sides aren't confirmed for some debates in this round. This position balance report is generated using the \"unconfirmed sides\" in the database, and as a consequence, may not make much sense. It's best to confirm sides in all debates before looking at this report."
-msgstr ""
+msgstr "Sepertinya sisi belum dikonfirmasi pada beberapa debat dalam ronde ini. Laporan keseimbangan posisi ini dibangkitkan menggunakan \"sisi tidak terkonfirmasi\" di dalam basisdata, dan konsekuensinya, mungkin tidak masuk akal. Akan lebih baik untuk mengonfirmasi sisi-sisi di setiap debat sebelum melihat laporan ini."
 
 #: draw/templates/position_balance.html:15
 #, python-format
 msgid "Your current position cost function is <strong>%(cost_func)s</strong>, raised to an exponent of <strong>%(exponent)s</strong>. <a href=\"http://tabbycat.readthedocs.io/en/latest/features/draw-generation-bp.html#position-cost-options\" target=_\"blank\">Read more about how position cost functions work</a> in our documentation."
-msgstr ""
+msgstr "Fungsi biaya posisi Anda saat ini adalah <strong>%(cost_func)s</strong>, dipangkatkan <strong>%(exponent)s</strong>. <a href=\"http://tabbycat.readthedocs.io/en/latest/features/draw-generation-bp.html#position-cost-options\" target=_\"blank\">Baca lebih lanjut tentang bagaimana fungsi biaya posisi bekerja</a> di dalam dokumentasi kami."
 
 #: draw/templates/position_balance_break.html:6
 msgid "Position balance reports aren't computed for elimination rounds."
-msgstr ""
+msgstr "Laporan keseimbangan posisi tidak dihitung untuk ronde eliminasi."
 
 #: draw/templates/position_balance_nonbp.html:6
 msgid "Position balance reports are only available for British Parliamentary tournaments."
-msgstr ""
+msgstr "Laporan keseimbangan posisi hanya tersedia untuk turnamen Parlemen Inggris."
 
 #: draw/templates/position_balance_round1.html:6
 msgid "Position balance reports aren't computed for the first round of a tournament."
